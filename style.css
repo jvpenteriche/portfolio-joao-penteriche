@@ -1,0 +1,116 @@
+html {
+    background-color: rgb(238, 232, 232); /* personalização do background da página  */
+}
+body {
+    /* Personalização de itens dentro do body*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    margin: 20px; 
+    padding: 20px;
+    
+}
+
+header { /* personalização de menu da página (cabeçalho)*/
+    border-bottom: 2px solid #030303;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+/* Personalização das guias de navegação do menu*/
+.menu {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    margin-right: 12px;
+    color: black;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+
+}
+
+/* Dimensionamento da imagem */
+img {
+    width: 30%;
+    height: auto;
+    margin-top: 10px;
+    border: 1px solid black;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #030303;
+}
+
+/* Personalização dos cards onde cada informação está */
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+/* Personalização do form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaço entre os campos */
+  width: 100%;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* alinhando o texto do footer (Rodapé) */
+footer {
+    text-align: center;
+}
+/* personalização do botão "voltar ao topo" */
+.cor1 {
+    color: black;
+    text-decoration: none;
+}
+
+.cor1:hover {
+    text-decoration: underline;
+}
